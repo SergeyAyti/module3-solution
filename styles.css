@@ -1,0 +1,68 @@
+/* Custom styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36px; /* Large font size for the main heading */
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Dark text for subheadings */
+  margin: 20px 0;
+}
+
+.navbar-brand {
+  font-size: 24px; /* Larger font size for brand name */
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px; /* Rounded borders for the sections */
+}
+
+section p {
+  font-size: 16px; /* Readable text size */
+  color: #555; /* Slightly lighter text color for readability */
+  line-height: 1.6; /* Space out the lines for better readability */
+}
+
+/* Hover effect for navbar links */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #e7e7e7;
+  border-radius: 4px;
+}
+
+/* Style for the navbar toggle button */
+.navbar-toggle {
+  border: 1px solid #ddd;
+  margin: 8px 15px 8px 0;
+}
+
+/* Media query for larger screens */
+@media (min-width: 992px) {
+  .navbar {
+    border: none;
+    background: none;
+    box-shadow: none;
+  }
+
+  .navbar-brand {
+    font-size: 30px; /* Even larger font size for brand on large screens */
+  }
+
+  h1 {
+    font-size: 48px; /* Larger font size for the main heading on large screens */
+  }
+
+  section {
+    padding: 40px; /* More padding for larger screens */
+  }
+}
